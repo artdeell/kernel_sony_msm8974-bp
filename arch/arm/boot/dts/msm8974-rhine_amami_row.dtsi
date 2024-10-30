@@ -713,14 +713,14 @@
 };
 
 &pm8941_chg {
-	qcom,vddmax-mv = <4350>;
-	qcom,vddsafe-mv = <4400>;
+	qcom,vddmax-mv = <4250>;
+	qcom,vddsafe-mv = <4350>;
 	qcom,ibatmax-ma = <1300>;
 	qcom,ibatterm-ma = <115>;
 	qcom,ibatsafe-ma = <1300>;
 	qcom,maxinput-dc-ma = <1300>;
 	qcom,maxinput-usb-ma = <1300>;
-	qcom,cool-bat-mv = <4350>;
+	qcom,cool-bat-mv = <4200>;
 	qcom,ibatmax-warm-ma = <650>;
 	qcom,warm-bat-mv = <4200>;
 	qcom,ibatmax-cool-ma = <650>;
@@ -728,12 +728,12 @@
 	qcom,vbatdet-delta-soc = <1>;
 	qcom,thermal-mitigation = <1300 1300 1100 900 700 500 300 200 100 0>;
 	qcom,tchg-mins = <512>;
-	qcom,vbatweak-mv = <3200>;
+	qcom,vbatweak-mv = <3000>;
 };
 
 &pm8941_bms {
-	qcom,v-cutoff-uv = <3200000>;
-	qcom,max-voltage-uv = <4350000>;
+	qcom,v-cutoff-uv = <2700000>;
+	qcom,max-voltage-uv = <4250000>;
 	qcom,r-conn-mohm = <0>;
 	qcom,low-soc-calculate-soc-threshold = <5>;
 	qcom,low-soc-calculate-soc-ms = <1000>;
